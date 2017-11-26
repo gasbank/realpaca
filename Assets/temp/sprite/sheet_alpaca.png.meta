@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: dd3a4e6fd581dd34ba8032b0bb2e9393
+timeCreated: 1511595708
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet_alpaca_0
+    21300002: sheet_alpaca_1
+    21300004: sheet_alpaca_2
+    21300006: sheet_alpaca_3
+    21300008: sheet_alpaca_4
+    21300010: sheet_alpaca_5
+    21300012: sheet_alpaca_6
+    21300014: sheet_alpaca_7
+    21300016: sheet_alpaca_8
+    21300018: sheet_alpaca_9
+    21300020: sheet_alpaca_10
+    21300022: sheet_alpaca_11
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet_alpaca_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1557
+        width: 356
+        height: 481
+      alignment: 9
+      pivot: {x: 0.21330442, y: 0.7507702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1564
+        width: 353
+        height: 473
+      alignment: 9
+      pivot: {x: 0.21086764, y: 0.7402994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1568
+        width: 392
+        height: 476
+      alignment: 9
+      pivot: {x: 0.28697282, y: 0.7387849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_3
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1563
+        width: 362
+        height: 481
+      alignment: 9
+      pivot: {x: 0.2244637, y: 0.7411254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1556
+        width: 364
+        height: 473
+      alignment: 9
+      pivot: {x: 0.22597797, y: 0.7452036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1058
+        width: 383
+        height: 471
+      alignment: 9
+      pivot: {x: 0.29407996, y: 0.74624485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1056
+        width: 360
+        height: 464
+      alignment: 9
+      pivot: {x: 0.21004656, y: 0.75495887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1067
+        width: 360
+        height: 451
+      alignment: 9
+      pivot: {x: 0.21648966, y: 0.7417347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_8
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1067
+        width: 391
+        height: 453
+      alignment: 9
+      pivot: {x: 0.2804954, y: 0.73042643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 538
+        width: 361
+        height: 458
+      alignment: 9
+      pivot: {x: 0.20442423, y: 0.7431049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 538
+        width: 361
+        height: 449
+      alignment: 9
+      pivot: {x: 0.21084958, y: 0.7324794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet_alpaca_11
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 536
+        width: 391
+        height: 451
+      alignment: 9
+      pivot: {x: 0.26269767, y: 0.73659176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

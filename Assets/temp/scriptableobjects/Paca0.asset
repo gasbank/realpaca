@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b8188e2b70a634e819e3fe4c4573e2, type: 3}
+  m_Name: Paca0
+  m_EditorClassIdentifier: 
+  wearSprite: {fileID: 21300000, guid: 48b8e2bf0eb32944987b744115cf90c5, type: 3}
+  bagSprite: {fileID: 21300000, guid: a8ceb5d366da5194eb0df5551584855b, type: 3}
+  alpacaAnimator: {fileID: 9100000, guid: 9935c8628bb24cb4c81b9d961a257aac, type: 2}
+  pacaNameSprite: {fileID: 21300002, guid: 4409e724942da064baf52bcd6c5537f1, type: 3}

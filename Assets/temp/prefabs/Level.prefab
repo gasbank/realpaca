@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1315485607676326}
+  m_IsPrefabParent: 1
+--- !u!1 &1165839455194428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4983212320845480}
+  m_Layer: 0
+  m_Name: Police Alpacas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1229204677522912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4991956519580114}
+  m_Layer: 0
+  m_Name: Snows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1315485607676326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4503586007504800}
+  - component: {fileID: 114131974859521858}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1491028642923436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4285175418066242}
+  m_Layer: 0
+  m_Name: Stones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1733527328354714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4572452066539774}
+  m_Layer: 0
+  m_Name: Paca Alpacas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4285175418066242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491028642923436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4503586007504800}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4503586007504800
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315485607676326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4285175418066242}
+  - {fileID: 4991956519580114}
+  - {fileID: 4572452066539774}
+  - {fileID: 4983212320845480}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4572452066539774
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1733527328354714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4503586007504800}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4983212320845480
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165839455194428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4503586007504800}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4991956519580114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229204677522912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4503586007504800}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114131974859521858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315485607676326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25730aafae80ad94b8fde78ae9cc416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneList:
+  - {fileID: 21300000, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300002, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300004, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300006, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300008, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300010, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300012, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300014, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300016, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300018, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  - {fileID: 21300020, guid: 88c708c4eaa29774babfa7adfb0a4d15, type: 3}
+  snowList:
+  - {fileID: 21300000, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300002, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300004, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300006, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300008, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300010, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300012, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  - {fileID: 21300014, guid: 1c3504fa2610a6b4c9eee6980847c7a2, type: 3}
+  stoneSpawnCount: 30
+  snowSpawnCount: 40
+  stones: {fileID: 4285175418066242}
+  snows: {fileID: 4991956519580114}
+  spawnRadius: 100
+  pacaList:
+  - {fileID: 11400000, guid: 484771b8faac33f45beae824ec08ef18, type: 2}
+  - {fileID: 11400000, guid: cfd36f9c433f48945b8e93c71b30c652, type: 2}
+  - {fileID: 11400000, guid: 8a58e95dc5e02964683a90514416f7c9, type: 2}
+  - {fileID: 11400000, guid: e56c01eda2e8f1148b5cf81b4f95b07e, type: 2}
+  - {fileID: 11400000, guid: e766532e6b905964b9a92a767eae8f8f, type: 2}
+  - {fileID: 11400000, guid: 6c9de9fff63e7584fbd936bf771ad287, type: 2}
+  - {fileID: 11400000, guid: acea0207b0193514290a378d85aebda4, type: 2}
+  - {fileID: 11400000, guid: bf31c1e0b413a234da12e3f363db1c27, type: 2}
+  - {fileID: 11400000, guid: 7c916215e577553438d59432b64b76b9, type: 2}
+  - {fileID: 11400000, guid: 9b62644f58acb4b489857ac3b284970d, type: 2}
+  policePaca: {fileID: 0}
+  pacaAlpacaPrefab: {fileID: 1571444798556214, guid: 09c991fe2984cc24b8573f72e8764e56,
+    type: 2}
+  pacaAlpacaSpawnRadius: 50
+  pacaAlpacaSpawnCount: 10
+  pacaAlpacas: {fileID: 4572452066539774}
+  policeAlpacaPrefab: {fileID: 1571444798556214, guid: 09c991fe2984cc24b8573f72e8764e56,
+    type: 2}
+  policeAlpacaSpawnRadius: 50
+  policeAlpacaSpawnCount: 10
+  policeAlpacas: {fileID: 4983212320845480}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Paca
+  - PacaNPC
+  - SafetyArea
+  - Safe
+  - opening_paca
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 2854492341
+    locked: 0
+  - name: SafetyArea
+    uniqueID: 1217278711
+    locked: 0
+  - name: Shadow
+    uniqueID: 903302655
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Snow
+    uniqueID: 3373434431
+    locked: 0
+  - name: LogBag
+    uniqueID: 1271833589
+    locked: 0
+  - name: NewPacaEffect
+    uniqueID: 2721482237
+    locked: 0
+  - name: Player
+    uniqueID: 1969787675
+    locked: 0
