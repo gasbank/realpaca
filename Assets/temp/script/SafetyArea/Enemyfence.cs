@@ -18,7 +18,6 @@ public class Enemyfence : MonoBehaviour {
 //		Debug.Log ("area in : " + other.tag);
 		if (other.gameObject.tag == "Enemy") {
 			other.gameObject.GetComponent<CopCollide> ().DestroyDeleyed();
-			Destroy (other.gameObject,3f);
 		}
 	}
 

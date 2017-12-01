@@ -34,9 +34,8 @@ public class NewPacaSprite : MonoBehaviour
         var worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
         
-        transform.localScale = new Vector3(Player.instance.transform.localScale.x * worldScreenWidth / width * 1.01f, worldScreenHeight / height * 1.01f, 1);
-
-
+		transform.localScale = new Vector3(Player.instance.transform.localScale.x * worldScreenWidth / width * 1.01f, worldScreenHeight / height * 1.01f, 1);
+//		Debug.Log (transform.localScale.ToString ());
     }
 
     private void Update()

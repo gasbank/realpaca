@@ -6,10 +6,11 @@ public class DamageEffect : MonoBehaviour
     public float redFactor;
     public float redFactorSpeed = 2.0f;
 
-    private void Awake() {
+    private void Awake()
+    {
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -25,14 +26,19 @@ public class DamageEffect : MonoBehaviour
                 redFactor = 0;
             }
         }
-        
+
         foreach (var sr in spriteRenderers)
         {
             sr.color = Color.red * redFactor + Color.white * (1.0f - redFactor);
         }
     }
 
-    public void SetToRed() {
+    public void Play()
+    {
         redFactor = 1.0f;
+    }
+    public void Stop()
+    {
+        redFactor = 0.0f;
     }
 }

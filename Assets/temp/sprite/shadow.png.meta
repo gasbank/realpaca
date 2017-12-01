@@ -1,11 +1,13 @@
 fileFormatVersion: 2
 guid: 7a7bbe9d08766b44db0fab9c626efbac
-timeCreated: 1511608477
+timeCreated: 1512106309
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: "\uADF8\uB9BC\uC790_0"
     21300002: "\uADF8\uB9BC\uC790_1"
+    21300004: shadow_0
+    21300006: shadow_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -89,7 +91,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uADF8\uB9BC\uC790_0"
+      name: shadow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,7 +105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "\uADF8\uB9BC\uC790_1"
+      name: shadow_1
       rect:
         serializedVersion: 2
         x: 283

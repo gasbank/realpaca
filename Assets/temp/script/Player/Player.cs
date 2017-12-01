@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
     public static Player instance;
     // 파카 뺏을 때
     public AudioClip stealPakaClip;
@@ -61,6 +62,9 @@ public class Player : MonoBehaviour {
             sr.enabled = false;
         }
         canvas.enabled = true;
+        Debug.Log("ZoomOut");
+        //		GetComponent<DamageEffect> ().Pause = false;
+        //		GameController.instance.gameStart ();
         Time.timeScale = 1;
     }
 
@@ -75,6 +79,8 @@ public class Player : MonoBehaviour {
         }
         canvas.enabled = false;
         Time.timeScale = 0;
+        //		GameController.instance.gameStop ();
+        GetComponent<DamageEffect>().Stop();
         StartCoroutine(ZoomOutDelayed());
     }
 
